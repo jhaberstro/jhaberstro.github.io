@@ -8,7 +8,7 @@ a:focus,
 a:hover {
   color: #fff;
 } */
-a {
+a.nav-link {
     font-family: Varela Round, arial, sans-serif;
     font-weight: normal;
     font-family: "Lato";
@@ -23,13 +23,13 @@ a {
     text-align:center;
     padding-bottom: 4px;
 }
-a.active {
+a.nav-link.active {
     border-bottom-color: rgb(230, 230, 230);
     border-bottom-style: solid;
     border-bottom-width: 2px;
     font-weight: 700;
 }
-a:hover {
+a.nav-link:hover {
     border-bottom-color: rgb(230, 230, 230);
     border-bottom-style: solid;
     border-bottom-width: 2px;
