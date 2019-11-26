@@ -129,13 +129,20 @@ body {
     line-height:120px;
 }
 
-.cover-section {
+.cover-section-title {
+  font-size:30px;
+  /* height:40px;
+  line-height:40px; */
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.cover-section-subtitle {
   font-size:30px;
   /* height:40px;
   line-height:40px; */
   font-weight: 200;
   text-transform: uppercase;
-  
 }
 
 .cover-section-begin {
