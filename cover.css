@@ -138,6 +138,14 @@ body {
   
 }
 
+.cover-section-begin {
+  margin-top: 40px;
+}
+
+.cover-section-end {
+  margin-bottom: 40px;
+}
+
 p {
   font-family: Varela Round, arial, sans-serif;
   font-family: "Lato";
@@ -148,8 +156,6 @@ p.lead {
     font-family: "Lato";
     text-transform: uppercase;
 }
-
-hr { margin-top: 40px; margin-bottom: 40px }
 
 
 /*
