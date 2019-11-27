@@ -1,4 +1,42 @@
-      /* latin-ext */
+@font-face {
+  font-family: "Romantically";
+  src: url("fonts/romantically/Romantically.otf");
+}
+
+@font-face {
+  font-family: "QuaverSans";
+  src: url("fonts/QuaverSansSerif_Personal_License/QuaverSans.otf")
+}
+
+@font-face {
+  font-family: "QuaverSerif";
+  src: url("fonts/QuaverSansSerif_Personal_License/QuaverSerif.otf")
+}
+
+@font-face {
+  font-family: "Euphemia-UCAS";
+  font-style: normal;
+  src: url("fonts/Euphemia-UCAS/Euphemia\ UCAS\ Regular\ 2.6.6.ttf");
+}
+
+@font-face {
+  font-family: "Euphemia-UCAS";
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/Euphemia-UCAS/Euphemia\ UCAS\ Bold\ 2.6.6.ttf");
+}
+
+@font-face {
+  font-family: "Euphemia-UCAS";
+  font-style: italic;
+  src: url("fonts/Euphemia-UCAS/Euphemia\ UCAS\ Italic\ 2.6.6.ttf");
+}
+
+/*************/
+/* Lato font */
+/*************/
+
+/* latin-ext */
 @font-face {
   font-family: 'Lato';
   font-style: italic;

@@ -11,8 +11,8 @@ a:hover {
 a.nav-link {
     font-family: Varela Round, arial, sans-serif;
     font-weight: normal;
-    font-family: "Lato";
-    font-size: 12px;
+    font-family: "QuaverSans";
+    font-size: 18px;
     line-height: 2em;
     text-transform: uppercase;
     text-decoration: none;
@@ -54,8 +54,17 @@ body {
   display: flex;
   color:rgb(26, 26, 26);
   text-decoration-color:rgb(26, 26, 26);
+
+  /* font-family: Varela Round, arial, sans-serif;
+  font-family: proxima-nova, sans-serif;
+  font-size: 16px;
+  font-weight: 100; */
+
   font-family: Varela Round, arial, sans-serif;
-  font-family: "Lato";
+  font-family: "QuaverSans";
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .cover-container {
@@ -75,7 +84,7 @@ body {
 .title {
   cursor:pointer;
   display:block;
-  font-family:Lato;
+  font-family:Romantically;
   font-style:normal;
   font-weight:100;
   letter-spacing:normal;
@@ -134,43 +143,49 @@ body {
   /* font-weight: 700; */
 }
 .cover-heading {
-    font-size:120px;
-    height:120px;
-    line-height:120px;
+    font-size:60px;
+    height:60px;
+    line-height:60px;
+    margin-bottom: 30px;
 }
 
 .cover-section-title {
   font-size:30px;
-  /* height:40px;
-  line-height:40px; */
+  height:30px;
+  line-height:30px;
   font-weight: 400;
-  text-transform: uppercase;
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+  /* text-transform: uppercase; */
 }
 
 .cover-section-subtitle {
-  font-size:30px;
-  /* height:40px;
-  line-height:40px; */
-  font-weight: 200;
+  /* font-family: QuaverSans;
+  font-size:45px;
+  font-weight: 200; */
+  font-family: proxima-nova, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
   text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-style: normal;
 }
 
 .cover-section-begin {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .cover-section-end {
-  margin-bottom: 40px;
-}
-
-p {
-  font-family: Varela Round, arial, sans-serif;
-  font-family: "Lato";
+  margin-bottom: 60px;
 }
 
 p.lead {
     font-family: Varela Round, arial, sans-serif;
-    font-family: "Lato";
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 14px;
     text-transform: uppercase;
 }
 
@@ -179,5 +194,10 @@ p.lead {
  * Footer
  */
 .mastfoot {
+  font-family: Varela Round, arial, sans-serif;
+  font-family: "QuaverSans";
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
