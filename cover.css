@@ -52,7 +52,8 @@ body {
 body {
   display: -ms-flexbox;
   display: flex;
-  color:#222;
+  color:rgb(26, 26, 26);
+  text-decoration-color:rgb(26, 26, 26);
   font-family: Varela Round, arial, sans-serif;
   font-family: "Lato";
 }
@@ -61,8 +62,17 @@ body {
   /* max-width: 42em; */
 }
 
+.background-splash {
+  background-image: url('images/bg-splash.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100% 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: rgb(255, 255, 255);
+}
+
 .title {
-  color:rgb(26, 26, 26);
   cursor:pointer;
   display:block;
   font-family:Lato;
@@ -71,7 +81,6 @@ body {
   letter-spacing:normal;
   overflow-wrap:normal;
   text-align:center;
-  text-decoration-color:rgb(26, 26, 26);
   text-decoration-line:none;
   text-decoration-style:solid;
   text-size-adjust:100%;
