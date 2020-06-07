@@ -71,6 +71,11 @@ body {
   /* max-width: 42em; */
 }
 
+.postpone {
+  width: 70%;
+  height: auto;
+}
+
 .background-splash {
   background-image: url('images/bg-splash.png');
   background-repeat: no-repeat;
